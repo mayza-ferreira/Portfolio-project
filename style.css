@@ -103,6 +103,9 @@ p {
     font-size: 13px;
     padding: 15px 20px;
   }
+  .current-page-link {
+    border-bottom: none;
+  }
 }
 
 .homepage-carousel,
