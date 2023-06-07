@@ -23,7 +23,7 @@
     <meta name="description" content="About Mayza Ferreira" />
     <title>About me - Mayza Ferreira</title>
   </head>
-  <body>
+  <body id="about-page">
     <nav class="navbar sticky-top navbar-expand-lg mb-5">
       <div class="container-fluid">
         <a class="navbar-brand fs-5" href="/" title="Go to homepage">
@@ -85,23 +85,37 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row flex-lg-row-reverse">
+    <div class="container-fluid">
+      <div class="row flex-lg-row-reverse text-center">
         <div class="col-lg-6"><h1>About me</h1></div>
         <div class="col-lg-6">
-          <img class="img-thumbnail me mt-lg-5" src="/images/me.jpg" alt="" />
+          <img
+            class="img-fluid me mt-lg-5"
+            src="/images/me.jpg"
+            alt="Mayza Ferreira"
+          />
         </div>
       </div>
-
-      <div class="card d-none d-md-block text-center footer container-fluid">
-        <div class="p-1">
-          <a href="http://" title="My Linkedin profile">
-            <i class="fa-brands fa-linkedin-in me-4" style="color: #d8ada0"></i
-          ></a>
-          <a href="mailto:mayzaferreiraher@gmail.com " title="Send me an email">
-            <i class="fa-solid fa-at" style="color: #d8ada0"></i
-          ></a>
-        </div>
+    </div>
+    <div
+      class="card d-none d-md-block text-center footer about-me-footer container-fluid"
+    >
+      <div class="p-1">
+        <a href="http://" title="My Linkedin profile">
+          <i
+            class="fa-brands fa-linkedin-in me-4 about-icons"
+            style="color: #d8ada0"
+          ></i
+        ></a>
+        <a href="mailto:mayzaferreiraher@gmail.com  " title="Send me an email">
+          <i class="fa-solid fa-at about-icons" style="color: #d8ada0"></i
+        ></a>
+        <a href="https://github.com/mayza-ferreira " title="My Github profile">
+          <i
+            class="fa-brands fa-github about-icons ms-4"
+            style="color: #d8ada0"
+          ></i>
+        </a>
       </div>
     </div>
   </body>

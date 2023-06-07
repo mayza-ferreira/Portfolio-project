@@ -13,6 +13,14 @@ body {
   margin-bottom: 100px;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px;
+  border: none;
+  background: rgb(216, 173, 160, 0.2);
+}
+
 nav {
   background: var(--fourth-color);
 }
@@ -113,6 +121,23 @@ p {
   .me {
     width: 100px !important;
   }
+
+  #about-page {
+    background: rgb(216, 173, 160, 0.1) !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  #about-page {
+    background: rgb(216, 173, 160, 0.1) !important;
+  }
+  .about-me-footer {
+    background: rgb(216, 173, 160, 0.2) !important;
+  }
+  .about-icons {
+    border: none !important;
+    background: none !important;
+  }
 }
 
 .me,
@@ -120,15 +145,32 @@ p {
 .presentation {
   margin-top: 200px !important;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  border-radius: 0px;
-  border: none;
-  background: rgb(216, 173, 160, 0.2);
-}
 
 .me {
   width: 300px;
 }
 
+#about-page {
+  background: linear-gradient(
+    to right,
+    rgb(216, 173, 160, 0.2) 0%,
+    rgb(216, 173, 160, 0.2) 50%,
+    rgb(216, 173, 160, 0.1) 50%,
+    rgb(216, 173, 160, 0.1) 100%
+  );
+}
+
+.about-me-footer {
+  background: none;
+}
+
+.about-icons {
+  border: 4px solid var(--fifth-color);
+  border-radius: 10px;
+  padding: 5px 5px;
+  background: var(--fifth-color);
+}
+
+.about-icons:hover{
+  box-shadow: var(--box-shadow)
+}
