@@ -125,6 +125,10 @@ p {
   #about-page {
     background: rgb(216, 173, 160, 0.1) !important;
   }
+
+  .about-info {
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -171,6 +175,6 @@ p {
   background: var(--fifth-color);
 }
 
-.about-icons:hover{
-  box-shadow: var(--box-shadow)
+.about-icons:hover {
+  box-shadow: var(--box-shadow);
 }
