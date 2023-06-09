@@ -39,7 +39,11 @@ nav {
   opacity: 0.6;
   border-bottom: 1px inset var(--secondary-color);
 }
-
+.current-page-link-secondary {
+  color: var(--secondary-color);
+  opacity: 0.6;
+  border-bottom: 1px inset var(--primary-color);
+}
 .index-toggler {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -190,7 +194,7 @@ p,
   background: var(--third-color);
 }
 
-.work-icons,
+.work-icons:hover,
 .about-icons:hover {
   box-shadow: var(--box-shadow);
 }
