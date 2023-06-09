@@ -26,14 +26,14 @@
     />
     <title>Projects - Mayza Ferreira</title>
   </head>
-  <body>
-    <nav class="navbar sticky-top navbar-expand-lg mb-5">
+  <body id="work-page">
+    <nav class="navbar sticky-top navbar-expand-lg mb-5 bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand fs-5" href="/" title="Go to homepage">
+        <a class="navbar-brand fs-5 work-nav" href="/" title="Go to homepage">
           Mayza Ferreira
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -41,22 +41,22 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon work-toggler"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link work-nav"
                 aria-current="page"
                 href="/"
                 title="Go to homepage"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item work-nav">
               <a
-                class="nav-link"
+                class="nav-link current-page-link"
                 aria-current="page"
                 href="/about.html"
                 title="About Mayza Ferreira"
@@ -66,7 +66,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link current-page-link"
+                class="nav-link work-nav"
                 aria-current="page"
                 href="/my_work.html"
                 title="Mayza Ferreira Projects"
@@ -76,7 +76,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link work-nav"
                 aria-current="page"
                 href="/contact.html"
                 title="Contact Mayza Ferreira"
@@ -88,15 +88,65 @@
         </div>
       </div>
     </nav>
+    <div class="container-fluid">
+      <div class="row flex-lg-row-reverse text-center">
+        <div class="col-lg-6">
+          <h1>Weather App</h1>
 
-    <div class="card d-none d-md-block text-center footer container-fluid">
+          <img
+            src="/images/weather_app.png"
+            alt="Weather app photo"
+            class="img-fluid work-img shadow"
+            alt
+          />
+
+          <p class="app-info lh-base">
+            I built a Vanilla JavaScript weather app in SheCodes Plus coding
+            workshop. Building upon my previously-gained knowledge, I also
+            became skilled in Bootstrap, API’s, real-life development workflow,
+            hosting, and advanced JavaScript. I combined all of these skills to
+            create a fully-functioning weather app.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h1>Movie page</h1>
+
+          <img
+            src="/images/movie.png"
+            alt="Weather app photo"
+            class="img-fluid work-img shadow"
+            alt
+          />
+
+          <p class="app-info lh-base">
+            I entered the world of front-end development by gaining some
+            knowledge in HTML, CSS, and JavaScript. I used my knowledge of these
+            languages, along with my new skills in VS Code, to build a page
+            about my favorite movie. The page utilizes JavaScript functions to
+            create user interaction.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card d-none d-lg-block text-center footer work-footer container-fluid"
+    >
       <div class="p-1">
         <a href="http://" title="My Linkedin profile">
-          <i class="fa-brands fa-linkedin-in me-4" style="color: #d8ada0"></i
+          <i
+            class="fa-brands fa-linkedin-in me-4 work-icons"
+            style="color: #d8ada0"
+          ></i
         ></a>
-        <a href="mailto:mayzaferreiraher@gmail.com " title="Send me an email">
-          <i class="fa-solid fa-at" style="color: #d8ada0"></i
+        <a href="mailto:mayzaferreiraher@gmail.com  " title="Send me an email">
+          <i class="fa-solid fa-at work-icons" style="color: #d8ada0"></i
         ></a>
+        <a href="https://github.com/mayza-ferreira " title="My Github profile">
+          <i
+            class="fa-brands fa-github work-icons ms-4"
+            style="color: #d8ada0"
+          ></i>
+        </a>
       </div>
     </div>
   </body>
