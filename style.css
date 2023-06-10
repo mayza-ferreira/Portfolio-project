@@ -133,14 +133,24 @@ p,
   #about-page {
     background: rgb(216, 173, 160, 0.1) !important;
   }
-
   .app-info,
   .about-info {
     font-size: 15px;
+  }
+  .app-info {
+    margin: 20px 0px 20px !important;
+    padding: 0px 10px !important;
+  }
+
+  .about-info {
     margin-top: 0px !important;
   }
   .info-col {
     margin-top: 0px !important;
+  }
+  .work-img {
+    width: 300px !important;
+    margin-top: 10px !important;
   }
 }
 
