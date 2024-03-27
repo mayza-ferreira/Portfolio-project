@@ -31,7 +31,7 @@ This section showcases some of the front-end projects I have created. Each proje
 
 This section provides ways to get in touch with me.
 
-- LinkedIn: [Mayza Ferreira](www.linkedin.com/in/mayza-ferreira-aa1b852a5)
+- LinkedIn: [Mayza Ferreira]([www.linkedin.com/in/mayza-ferreira-aa1b852a5](https://www.linkedin.com/in/mayza-ferreira-aa1b852a5/))
 - Email: mayzaferreiraher@gmail.com
 - GitHub: [mayza-ferreira](https://github.com/mayza-ferreira)
 
