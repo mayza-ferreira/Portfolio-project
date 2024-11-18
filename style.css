@@ -11,7 +11,7 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   border-radius: 0px;
   border: none;
@@ -220,29 +220,23 @@ p,
     rgb(216, 173, 160, 0.05) 100%
   );
 }
+.contact-icons,
+.link-icon {
+  border-radius: 10px;
+  padding: 5px 5px;
+  color: #d8ada0;
+  border: 4px solid var(--third-color);
+  background: var(--third-color);
+}
+.link-icon:hover {
+  box-shadow: var(--box-shadow);
+}
 
 .work-footer,
 .about-me-footer {
   background: none;
 }
 
-.contact-icons,
-.work-icons,
-.about-icons {
-  border: 4px solid var(--third-color);
-
-  background: var(--third-color);
-}
-.work-icons,
-.about-icons {
-  border-radius: 10px;
-  padding: 5px 5px;
-}
-
-.work-icons:hover,
-.about-icons:hover {
-  box-shadow: var(--box-shadow);
-}
 .contact-nav,
 .work-nav,
 .about-nav {
