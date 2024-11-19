@@ -24,9 +24,9 @@
     <title>About me - Mayza Ferreira</title>
   </head>
   <body id="about-page">
-    <nav class="navbar sticky-top navbar-expand-lg mb-5 bg-white">
+    <nav class="navbar sticky-top navbar-expand-lg mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand fs-5 about-nav" href="/" title="Go to homepage">
+        <a class="navbar-brand fs-5" href="/" title="Go to homepage">
           Mayza Ferreira
         </a>
         <button
@@ -44,7 +44,7 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a
-                class="nav-link about-nav"
+                class="nav-link every-nav-link"
                 aria-current="page"
                 href="/"
                 title="Go to homepage"
@@ -53,7 +53,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link about-nav current-page-link-secondary"
+                class="nav-link current-page-link"
                 aria-current="page"
                 href="/about.html"
                 title="About Mayza Ferreira"
@@ -63,7 +63,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link about-nav"
+                class="nav-link"
                 aria-current="page"
                 href="/my_work.html"
                 title="Mayza Ferreira Projects"
@@ -73,7 +73,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link about-nav"
+                class="nav-link"
                 aria-current="page"
                 href="/contact.html"
                 title="Contact Mayza Ferreira"
@@ -87,35 +87,58 @@
     </nav>
     <div class="container-fluid">
       <div class="row flex-lg-row-reverse text-center">
-        <div class="col-lg-6 info-col">
+        <div
+          class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+        >
           <h1>About me</h1>
           <h3 class="text-center m-0">
             🇺🇾 Front-end developer, based in Uruguay
           </h3>
           <br />
+
           <p class="about-info lh-base">
-            Hi, I'm Mayza, a passionate front-end developer dedicated to
-            creating engaging and user-friendly web experiences. With a strong
-            background in computer science and a deep love for coding, I strive
-            to deliver high-quality solutions that merge functionality with
-            aesthetic appeal.
+            Hi, I’m Mayza, a front-end developer passionate about creating
+            user-friendly web experiences that are both functional and visually
+            appealing. I’m currently studying <em>Computer Science</em> at
+            university. I’m also part of the
+            <em>Certified Tech Developer</em> program by <em>Globant</em>,
+            <em>Mercado Libre</em>, and <em>Digital House</em>, focusing on
+            <em>front-end technologies</em> such as <em>React</em>,
+            <em>JavaScript</em>, and <em>UI/UX design</em>, which has greatly
+            enriched my skills and understanding of web development.
           </p>
-          <p class="about-info m-0">
-            I am currently studying a degree in Computer Science in university ,
-            where I'm gaining a solid foundation in programming, algorithms, and
-            software development. Additionally, I have completed several online
-            courses focused on front-end development, including SheCodes Basics
-            and SheCodes Plus, further enhancing my skills in HTML, CSS, and
-            JavaScript.
+
+          <p class="about-info lh-base">
+            In August 2024, I had the incredible opportunity to participate in
+            <em>Full Stack Week</em> in Brazil, where I developed a barber
+            service booking app. This project involved working with
+            <em>Next.js</em>, <em>TypeScript</em>, <em>PostgreSQL</em>, and
+            <em>Tailwind CSS</em>, which provided me with valuable hands-on
+            experience in full-stack development.
+          </p>
+
+          <p class="about-info lh-base">
+            Additionally, through programs like <em>SheCodes Pro</em>, I’ve been
+            able to further enhance my skills in <em>HTML</em>, <em>CSS</em>,
+            <em>JavaScript</em>, and <em>ReactJS</em>. These experiences have
+            not only strengthened my technical abilities but have also fueled my
+            passion for learning, pushing me to continually improve and grow as
+            a developer in this ever-evolving tech industry.
           </p>
         </div>
-        <div class="col-lg-6">
-          <img class="img-fluid me" src="/images/me.jpg" alt="Mayza Ferreira" />
+        <div
+          class="d-none d-md-block col-lg-6 d-flex justify-content-center align-items-center"
+        >
+          <img
+            class="img-fluid me"
+            src="/images/mayza.png"
+            alt="Mayza Ferreira"
+          />
         </div>
       </div>
     </div>
     <div
-      class="card d-none d-lg-block text-center footer about-me-footer container-fluid"
+      class="d-none d-lg-block text-center footer about-me-footer container-fluid"
     >
       <div class="p-1">
         <a
