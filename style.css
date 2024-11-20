@@ -36,6 +36,14 @@ nav {
   color: rgba(216, 173, 160, 0.7);
 }
 
+h2 a i {
+  margin-left: 8px;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+h2 a i:hover {
+  opacity: 0.6;
+}
 .current-page-link {
   color: var(--primary-color);
   opacity: 0.6;
